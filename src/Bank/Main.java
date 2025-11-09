@@ -12,7 +12,7 @@ public class Main {
         //C = Criar conta
         //E = Sair (Exit)
         while (true) {
-            System.out.println("O que deseja fazer ? |C = Criar conta|-|E = Sair do programa");
+            System.out.println("O que deseja fazer ? \n\nC = Criar conta \n\nE = Sair do programa");
             String op = scanner.nextLine();
 
             if (op.equals("C")){
@@ -41,7 +41,7 @@ public class Main {
             Scanner scanner = new Scanner(System.in);
 
             while (true){
-                System.out.println("O que deseja fazer ? |D = Deposito|-|S = Saque|-|E = Sair da conta|");
+                System.out.println("O que deseja fazer ? \n\nD = Deposito \n\nS = Saque \n\nE = Sair da conta|");
                 String op = scanner.nextLine();
 
                 if (op.equals("D")){
